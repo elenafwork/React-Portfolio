@@ -4,7 +4,7 @@ export default function Navigation ({currentPage, handlePageChange}){
             <ul className="nav nav-tabs">
               <li className="nav-item">
                 <a
-                  href="#about"
+                  href="about"
                   onClick={() => handlePageChange('About')}
                   //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
         
@@ -15,7 +15,7 @@ export default function Navigation ({currentPage, handlePageChange}){
               </li>
               <li className="nav-item">
                 <a
-                  href="#about"
+                  href="portfolio"
                   onClick={() => handlePageChange('Portfolio')}
                   //  TODO: Add a comment explaining what this logic is doing
         
@@ -27,7 +27,7 @@ export default function Navigation ({currentPage, handlePageChange}){
               
               <li className="nav-item">
                 <a
-                  href="#contact"
+                  href="contact"
                   //  TODO: Add a comment explaining what this logic is doing
         
                   onClick={() => handlePageChange('Contact')}
