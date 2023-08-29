@@ -1,6 +1,7 @@
-export const projects=[
+const projects=[
     {
      id: 1,
+     imgLink: "",
         name: 'Quiz',
      description: 'simple quiz written with vanilla Java Script',
      page: 'https://elenafwork.github.io/04-Quiz/',
@@ -9,6 +10,7 @@ export const projects=[
   },
   {
     id:2,
+    imgLink: "",
     name: 'Weather Dashboard',
      description: 'weather dashboard ',
      page: 'https://github.com/elenafwork/06-Weather-Dashboard',
@@ -17,10 +19,21 @@ export const projects=[
   },
   {
     id:3,
+    imgLink: "",
     name: 'Weather Dashboard',
      description: 'weather dashboard ',
      page: 'https://github.com/elenafwork/06-Weather-Dashboard',
      gitHubRepo: 'https://github.com/elenafwork/06-Weather-Dashboard',
 
-  }
+  },
+  {
+   id:4,
+   imgLink: "",
+   name: 'Weather Dashboard',
+    description: 'weather dashboard ',
+    page: 'https://github.com/elenafwork/06-Weather-Dashboard',
+    gitHubRepo: 'https://github.com/elenafwork/06-Weather-Dashboard',
+
+ }
 ];
+export default projects;

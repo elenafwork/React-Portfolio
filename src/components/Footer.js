@@ -2,6 +2,9 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <h1> THIS IS FOOTER</h1>
+        <footer>
+         
+        <h5> 🥤 made with love for coffee</h5>
+        </footer>
     )
 }
