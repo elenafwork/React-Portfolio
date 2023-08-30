@@ -1,28 +1,18 @@
 import React from 'react';
 import { Image, Card} from "react-bootstrap";
-const styles = {
-  card: {
-    background: "rgb(216, 231, 244",
-    flexWrap: "wrap",
-    justifyContent: "spaceAround",
-    width: '18rem'
-    
-  },
-  p: {
-    color: "black",
-  }
-};
+import image from "../images/imgProject/projectQuiz.png";
+
 
 export default function PortfolioCard(props){
     const pageLink=`${props.project.page}`;
     const gitHubLink=`${props.project.gitHubRepo}`;
-    const progectImg=`${props.project.imgLink}`
+    const projectImg=`${image}`
     
     return (
-      <Card border="primary"style={styles.card}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card border="primary" className="card col-lg-3 col-md-5 col-sm-10 m-3 ">
+      <Card.Img variant="top" src={image} className='my-2'/>
       <Card.Body>
-        <Card.Title>{props.project.name}</Card.Title>
+        <Card.Title >{props.project.name}</Card.Title>
         <Card.Text>
         {props.project.description}
         </Card.Text>

@@ -30,7 +30,21 @@ export default function PageContainer() {
   return (
     <>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <main >
+        {renderPage()}
+      </main>
+      
+      <div>
+            <ul>
+                <li>
+                    <a href="https://storyset.com/computer">Computer illustrations by Storyset</a>
+                </li>
+                <li>
+                     <a target="_blank" href="https://icons8.com/icon/32323/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                </li>
+            </ul>
+            
+       </div>
       <Footer />
     </>
   );
