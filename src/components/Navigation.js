@@ -1,15 +1,26 @@
 import React from 'react';
+import Pdf from '../Documents/CV.pdf'
+
 export default function Navigation ({currentPage, handlePageChange}){
     return(
           <nav>
             <ul className="nav ">
+            <li className="nav-item">
+                <a
+                  // href="#Home"
+                  onClick={() => handlePageChange('Home')}
+                       
+                  className={currentPage === 'Home' ? 'nav active' : 'nav'}
+                >
+                  Home
+                </a>
+              </li>
               <li className="nav-item">
                 <a
                   // href="#about"
                   onClick={() => handlePageChange('About')}
-                  //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-        
-                  className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                       
+                  className={currentPage === 'About' ? 'nav active' : 'nav'}
                 >
                   About
                 </a>
@@ -18,21 +29,21 @@ export default function Navigation ({currentPage, handlePageChange}){
                 <a
                   // href="#portfolio"
                   onClick={() => handlePageChange('Portfolio')}
-                  //  TODO: Add a comment explaining what this logic is doing
-        
-                  className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                  
+                  className={currentPage === 'Portfolio' ? 'nav active' : 'nav'}
                 >
                   Portfolio
                 </a>
               </li>
-              
+              <li className="nav-item">
+              <a href = {Pdf}>Resume</a>
+              </li>
               <li className="nav-item">
                 <a
                   // href="#contact"
-                  //  TODO: Add a comment explaining what this logic is doing
-        
+                  
                   onClick={() => handlePageChange('Contact')}
-                  className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                  className={currentPage === 'Contact' ? 'nav active' : 'nav'}
                 >
                   Contact
                 </a>
