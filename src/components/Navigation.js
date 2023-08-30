@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from '../Documents/CV.pdf'
+//import Pdf from '../Documents/CV.pdf'
 
 export default function Navigation ({currentPage, handlePageChange}){
     return(
@@ -36,7 +36,7 @@ export default function Navigation ({currentPage, handlePageChange}){
                 </a>
               </li>
               <li className="nav-item">
-              <a href = {Pdf}>Resume</a>
+              <a href ='https://drive.google.com/file/d/1CKI52ef5Xs0dunyK7Btgq9PCg1ZE3Tcf/view?usp=sharing'>Resume</a>
               </li>
               <li className="nav-item">
                 <a

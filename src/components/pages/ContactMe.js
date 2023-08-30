@@ -1,9 +1,6 @@
 import React from 'react';
 import Form from '../Form';
-import email from '../../images/icons8-email-64.png'
-import gitHubIcon from '../../images/icons8-github-94.png';
-import LinkdinIcon from '../../images/icons8-linkedin-64.png';
-import instagram from '../../images/icons8-instagram-96.png';
+
 const styles={
     
         height:'60px',
@@ -18,10 +15,10 @@ export default function Contact(){
             <div className="content">
                 
                     <ul>
-                    <li><a href="mailto:elenaf.work@gmail.com"><img src={email} alt='email icon' style={styles} /></a></li>
-                    <li><a href="https://github.com/elenafwork"><img src={gitHubIcon} alt='gitHub icon' style={styles} /></a></li>
-                    <li> <a href="https://www.instagram.com/elenaf_art/" ><img src={LinkdinIcon} alt='linkdin icon' style={styles} /></a></li>
-                    <li><a href="https://www.instagram.com/elenaf_art/"><img src={instagram} alt='instagram icon' style={styles} /></a></li>
+                    <li><a href="mailto:elenaf.work@gmail.com"><img src="https://i.imgur.com/bAYdVtT.png" alt='email icon' style={styles} /></a></li>
+                    <li><a href="https://github.com/elenafwork"><img src="https://i.imgur.com/tryNfW0.png" alt='gitHub icon' style={styles} /></a></li>
+                    <li> <a href="https://www.instagram.com/elenaf_art/" ><img src="https://i.imgur.com/XsH0KVA.png" alt='linkdin icon' style={styles} /></a></li>
+                    <li><a href="https://www.instagram.com/elenaf_art/"><img src="https://i.imgur.com/3GSfTF5.png" alt='instagram icon' style={styles} /></a></li>
                     </ul>
                 
             </div>
