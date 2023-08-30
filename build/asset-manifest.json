@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ae62b72.css",
+    "main.js": "/static/js/main.53f267c4.js",
+    "static/media/portfolio-face.JPG": "/static/media/portfolio-face.f835f765b09ab9e466ec.JPG",
+    "static/media/Gaming-cuate.png": "/static/media/Gaming-cuate.2c910767438c7c37e24b.png",
+    "static/media/CV.pdf": "/static/media/CV.be8a3ed569b0122cd003.pdf",
+    "static/media/projectQuiz.png": "/static/media/projectQuiz.912b91ec6e86c7d87e9c.png",
+    "static/media/icons8-github-94.png": "/static/media/icons8-github-94.7acde23236a5c7507398.png",
+    "index.html": "/index.html",
+    "main.5ae62b72.css.map": "/static/css/main.5ae62b72.css.map",
+    "main.53f267c4.js.map": "/static/js/main.53f267c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ae62b72.css",
+    "static/js/main.53f267c4.js"
+  ]
+}

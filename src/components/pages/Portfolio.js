@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Card} from "react-bootstrap";
+import "react-bootstrap";
 import PortfolioCard from '../PortfolioCard';
 import projects from '../../data/projects';
 //import images from "../../images/portfolio-face.JPG";

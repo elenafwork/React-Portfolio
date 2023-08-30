@@ -1,7 +1,7 @@
 import React from "react";
-import gaming from '../../images/Gaming-cuate.png';
+//import Gaming from "../../images/Gaming-cuate.png";
 //import '../../images/gaming-styles.css'
-import { Image, Col, Row, Container } from "react-bootstrap";
+import {Col, Row, Container } from "react-bootstrap";
 import {motion} from 'framer-motion';
 import HomeImage from "../HomeImage"
 const style = {
@@ -17,7 +17,7 @@ const style = {
     }
   };
 export default function Home(){
-    //console.log({svgAnimation});
+    
     
     return (
         <>

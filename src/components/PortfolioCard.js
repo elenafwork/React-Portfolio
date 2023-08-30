@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Card} from "react-bootstrap";
+import { Card} from "react-bootstrap";
 import image from "../images/imgProject/projectQuiz.png";
 
 
