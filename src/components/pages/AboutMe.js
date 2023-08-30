@@ -19,7 +19,7 @@ export default function About() {
     <Container style={style.container}>
       <Row className="py-3 my-3">
         <Col xs={6} md={4}>
-          <Image src={profileImg} rounded className="w-100 " />
+          <Image src="https://i.imgur.com/gTgpSup.jpg" rounded className="w-100 " />
         </Col>
         <Col xs={6} md={4}>
           <h1>About</h1>
