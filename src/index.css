@@ -1,0 +1,121 @@
+
+
+body {
+    background-color: black;
+    color:aqua;
+  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+     background: linear-gradient(45deg,rgb(234, 158, 246),rgba(0, 0, 255, 0.557));
+    height: 100px;
+    width: 100vw;
+   
+}
+
+header h1 {
+    display: inline-block;
+    justify-content: left;
+    align-self: flex-start;
+    color: antiquewhite;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+header nav {
+    
+    align-self: flex-end;
+    right: 20px;
+    bottom: 10px;
+    font-variant-caps: all-small-caps;
+    
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+header nav li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+
+header a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(234, 158, 246);
+    font-variant-caps: all-small-caps;
+    
+    font-style: italic;
+    font-size: 30px;
+}
+
+hr{
+    color: rgb(234, 158, 246);
+        opacity: 1.0;
+}
+footer {
+    position: fixed;
+    
+    display: flex;
+    justify-content: center;
+     background: linear-gradient(45deg,rgb(234, 158, 246),rgba(0, 0, 255, 0.557));
+    height: 50px;
+    width: 100vw;
+   font-size: 10px;
+  
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ #about-container{
+    background-color: rgba(0, 0, 255, 0.557, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+ .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .animated:hover {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  .tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+  }
+  
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}

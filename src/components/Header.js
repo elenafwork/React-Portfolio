@@ -1,8 +1,14 @@
-import React from 'react';
-export default function Header(){
+import React, {useState} from 'react';
+
+import Navigation from './Navigation';
+
+
+export default function Header({currentPage, handlePageChange}){
+ 
     return (
-        <div>
-            <h1> Elena Fadeeva</h1>
-        </div>
+        <header>
+            <h1> Elena F</h1>
+            <Navigation currentPage={currentPage}  handlePageChange={handlePageChange} />
+        </header>
     )
 }
