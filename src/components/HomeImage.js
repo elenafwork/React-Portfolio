@@ -5,8 +5,8 @@ import { Image, Col, Row, Container } from "react-bootstrap";
 import {motion,} from 'framer-motion';
 const styles={
     img: {
-        height: '20wv',
-        width: '20wh'
+        height: '50wv',
+        width: '50wh'
     }
 }
 export default function HomeImage() {
@@ -14,8 +14,9 @@ export default function HomeImage() {
     return(
         <>
         <motion.img src={gaming} alt="gaming-girl" className="w-100 "
-        animate={{rotate: rotate ?360 : 0}}
-        onClick={()=> {setRotate(!rotate)}}
+        animate={{ x: [0,100], scale:1}} initial={{scale:0}}
+        transition={{duration:5}}
+        
         />
         </>
         
