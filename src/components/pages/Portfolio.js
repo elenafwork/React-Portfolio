@@ -7,9 +7,9 @@ export default function Portfolio() {
     console.log('PROJECTS', {projects});
     
     return (
-        <div className='main-container'>
-        <h1>My Projects</h1>
-            <div className='d-flex justify-content-around py-3'>
+        <div className='main-container' >
+        <h1 className='p-3'>Featuring projects</h1>
+            <div className='row col-12 p-3 '>
                 {projects.map((project) =>
             <PortfolioCard className="list-projects-item" key={project.id} project={project}
              />
