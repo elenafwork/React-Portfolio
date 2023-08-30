@@ -27,11 +27,12 @@ export default function Home(){
         <HomeImage className="w-100 "/>
         </Col>
         <Col xs={6} md={4}>
-          <h1>Hi there!</h1>
+          <motion.h1  
+          animate={{ x: [-200,0,200,0]}} >
+            Hi there!
+            </motion.h1>
           <hr />
-          <p style={style.p}>
-            
-          </p>
+          
         </Col>
       </Row>
     </Container>
