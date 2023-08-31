@@ -14,10 +14,11 @@ export default function HomeImage() {
     return(
         <>
         <motion.img src='https://i.imgur.com/zC60Bm5.png' alt="gaming-girl" className="w-100 "
-        animate={{ x: [0,100], scale:1}} initial={{scale:0}}
+        animate={{ x: [0,100, 200,100], scale:1}} initial={{scale:0}}
         transition={{duration:3}}
         
         />
+        {/* <img src="https://i.imgur.com/rMQwyZw.gif" /> */}
         </>
         
     )

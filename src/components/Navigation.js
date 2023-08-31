@@ -7,7 +7,7 @@ export default function Navigation ({currentPage, handlePageChange}){
             <ul className="nav ">
             <li className="nav-item">
                 <a
-                  // href="#Home"
+                  href="#Home"
                   onClick={() => handlePageChange('Home')}
                        
                   className={currentPage === 'Home' ? 'nav active' : 'nav'}
@@ -17,7 +17,7 @@ export default function Navigation ({currentPage, handlePageChange}){
               </li>
               <li className="nav-item">
                 <a
-                  // href="#about"
+                  href="#about"
                   onClick={() => handlePageChange('About')}
                        
                   className={currentPage === 'About' ? 'nav active' : 'nav'}
@@ -27,7 +27,7 @@ export default function Navigation ({currentPage, handlePageChange}){
               </li>
               <li className="nav-item">
                 <a
-                  // href="#portfolio"
+                  href="#portfolio"
                   onClick={() => handlePageChange('Portfolio')}
                   
                   className={currentPage === 'Portfolio' ? 'nav active' : 'nav'}
@@ -40,7 +40,7 @@ export default function Navigation ({currentPage, handlePageChange}){
               </li>
               <li className="nav-item">
                 <a
-                  // href="#contact"
+                  href="#contact"
                   
                   onClick={() => handlePageChange('Contact')}
                   className={currentPage === 'Contact' ? 'nav active' : 'nav'}
