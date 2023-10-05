@@ -46,11 +46,11 @@ const projects=[
  },
  {
    id:6,
-   imgLink: "https://i.imgur.com/PQk3uNS.png",
-   name: 'Weather Dashboard',
-    description: 'weather dashboard ',
-    page: 'https://github.com/elenafwork/06-Weather-Dashboard',
-    gitHubRepo: 'https://github.com/elenafwork/06-Weather-Dashboard',
+   imgLink: "https://i.imgur.com/nPSYsQF.png",
+   name: 'Pet Posts',
+    description: 'social media for pets',
+    page: 'https://pure-bastion-75691-8de8d2af8e5c.herokuapp.com/',
+    gitHubRepo: 'https://github.com/elenafwork/Pet-Posts',
 
  }
 ];
